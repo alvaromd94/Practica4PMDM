@@ -6,4 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="125dp"
+        android:drawableEnd="@android:drawable/btn_star_big_on"
+        android:text="Botón 1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp"
+        android:drawableRight="@android:drawable/ic_lock_idle_alarm"
+        android:text="Botón 2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="50dp"
+        android:drawableRight="@android:drawable/ic_lock_lock"
+        android:text="Botón 3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:drawableRight="@android:drawable/presence_audio_online"
+        android:text="Botón 4" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="374dp"
+        android:layout_height="331dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/medusa" />
+
 </RelativeLayout>
