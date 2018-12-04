@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UnoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButtonSpain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="España" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonFrancia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Francia" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonItalia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Italia" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonPortugal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Portugal" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonBrasil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Brasil" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonAlemania"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alemania" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonRusia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rusia" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonChina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="China" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonJapon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Japón" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonIndia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="India" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

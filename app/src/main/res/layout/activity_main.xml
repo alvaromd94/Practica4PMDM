@@ -51,7 +51,7 @@
         android:text="Botón 4" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageViewMedusa"
         android:layout_width="374dp"
         android:layout_height="331dp"
         android:layout_alignParentStart="true"

@@ -13,13 +13,32 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button1 = (Button) findViewById(R.id.button1);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent (v.getContext(), NumerosPrimos.class);
-                startActivityForResult(intent, 0);
-            }
-        });
-    }
+                    Button button1 = (Button) findViewById(R.id.button1);
+                    button1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent (v.getContext(), NumerosPrimos.class);
+                        startActivityForResult(intent, 0);
+                    }
+                    });
+
+
+                    Button button2 =(Button) findViewById(R.id.button2);
+                     button2.setOnClickListener(new View.OnClickListener() {
+                   @Override
+                   public void onClick(View v) {
+                       Intent intent = new Intent(v.getContext(), JuegoDeAciertos.class);
+                       startActivityForResult(intent, 0);
+                   }
+                     });
+
+                    Button button3 =(Button) findViewById(R.id.button3);
+                    button3.setOnClickListener((new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent (v.getContext(), DesplazandoImagenes.class);
+                            startActivityForResult(intent, 0);
+                        }
+                    }));
+                    }
 }
