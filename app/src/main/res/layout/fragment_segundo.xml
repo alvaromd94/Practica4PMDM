@@ -17,7 +17,7 @@
             android:orientation="vertical" >
 
             <RadioGroup
-                android:id="@+id/radioGroup1"
+                android:id="@+id/radioGroupCapitales"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">

@@ -3,5 +3,7 @@
     <string name="numerosPrimos">Números Primos</string>
     <string name="juegoDeAciertos">Juego de Aciertos</string>
     <string name="desplazandoImagenes">Desplazando Imágenes</string>
+    <string name="seleccionandoImagenes">Seleccionando Imágenes</string>
+
 
 </resources>

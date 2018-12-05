@@ -40,5 +40,14 @@ public class MainActivity extends AppCompatActivity {
                             startActivityForResult(intent, 0);
                         }
                     }));
+
+                    Button button4 =(Button) findViewById(R.id.button4);
+                    button4.setOnClickListener((new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent (v.getContext(), SeleccionandoImagenes.class);
+                            startActivityForResult(intent, 0);
+                        }
+                    }));
                     }
 }

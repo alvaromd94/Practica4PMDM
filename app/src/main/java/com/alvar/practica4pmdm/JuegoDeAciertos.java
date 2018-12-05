@@ -4,8 +4,23 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 public class JuegoDeAciertos extends AppCompatActivity {
+
+    RadioGroup radioGroupPaises;
+    RadioButton radioButtonSpain;
+    RadioButton radioButtonFrancia;
+    RadioButton radioButtonItalia;
+    RadioButton radioButtonPortugal;
+    RadioButton radioButtonBrasil;
+    RadioButton radioButtonAlemania;
+    RadioButton radioButtonRusia;
+    RadioButton radioButtonChina;
+    RadioButton radioButtonJapon;
+    RadioButton radioButtonIndia;
+    RadioGroup radioGroupCapitales;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
