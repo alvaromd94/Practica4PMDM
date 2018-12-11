@@ -27,7 +27,7 @@
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:drawableEnd="@android:drawable/btn_star_big_on"
-            android:text="Botón 1" />
+            android:text="@string/boton1" />
 
         <Button
             android:id="@+id/button2"
@@ -35,7 +35,7 @@
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:drawableRight="@android:drawable/ic_lock_idle_alarm"
-            android:text="Botón 2" />
+            android:text="@string/boton2" />
     </LinearLayout>
 
     <LinearLayout
@@ -51,7 +51,7 @@
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:drawableRight="@android:drawable/ic_lock_lock"
-            android:text="Botón 3" />
+            android:text="@string/boton3" />
 
         <Button
             android:id="@+id/button4"
@@ -59,7 +59,7 @@
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:drawableRight="@android:drawable/presence_audio_online"
-            android:text="Botón 4" />
+            android:text="@string/boton4" />
     </LinearLayout>
 
 </LinearLayout>

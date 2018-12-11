@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="PAÍSES"
+        android:text="@string/paises"
         android:textSize="24sp" />
 
     <fragment
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="CAPITALES"
+        android:text="@string/capitales"
         android:textSize="24sp" />
 
     <fragment
@@ -69,7 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="Verificar" />
+        android:text="@string/btnVerificar" />
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -26,61 +26,61 @@
                     android:id="@+id/radioButtonParis"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Paris" />
+                    android:text="@string/paris" />
 
                 <RadioButton
                     android:id="@+id/radioButtonMadrid"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Madrid" />
+                    android:text="@string/madrid" />
 
                 <RadioButton
                     android:id="@+id/radioButtonRoma"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Roma" />
+                    android:text="@string/roma" />
 
                 <RadioButton
                     android:id="@+id/radioButtonMoscu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Moscú" />
+                    android:text="@string/moscu" />
 
                 <RadioButton
                     android:id="@+id/radioButtonBerlin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Berlin" />
+                    android:text="@string/berlin" />
 
                 <RadioButton
                     android:id="@+id/radioButtonBrasilia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Brasilia" />
+                    android:text="@string/brasilia" />
 
                 <RadioButton
                     android:id="@+id/radioButtonOporto"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Oporto" />
+                    android:text="@string/lisboa" />
 
                 <RadioButton
                     android:id="@+id/radioButtonTokio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tokio" />
+                    android:text="@string/tokio" />
 
                 <RadioButton
                     android:id="@+id/radioButtonNuevaDelhi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Nueva Delhi" />
+                    android:text="@string/delhi" />
 
                 <RadioButton
                     android:id="@+id/radioButtonPekin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pekín" />
+                    android:text="@string/pekin" />
             </RadioGroup>
         </LinearLayout>
     </ScrollView>

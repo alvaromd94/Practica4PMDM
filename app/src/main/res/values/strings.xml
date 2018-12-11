@@ -4,6 +4,38 @@
     <string name="juegoDeAciertos">Juego de Aciertos</string>
     <string name="desplazandoImagenes">Desplazando Imágenes</string>
     <string name="seleccionandoImagenes">Seleccionando Imágenes</string>
-
+    <string name="boton1">Botón 1</string>
+    <string name="boton2">Botón 2</string>
+    <string name="boton3">Botón 3</string>
+    <string name="boton4">Botón 4</string>
+    <string name="paises">PAÍSES</string>
+    <string name="capitales">CAPITALES</string>
+    <string name="btnVerificar">Verificar</string>
+    <string name="txtIntroducir">Introduzca un número entero:</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="btnTulipan">Tulipán</string>
+    <string name="btnRosa">Rosa</string>
+    <string name="btnAzahar">Azahar</string>
+    <string name="btnCerezo">Cerezo</string>
+    <string name="paris">París</string>
+    <string name="madrid">Madrid</string>
+    <string name="roma">Roma</string>
+    <string name="moscu">Moscú</string>
+    <string name="berlin">Berlín</string>
+    <string name="brasilia">Brasilia</string>
+    <string name="lisboa">Lisboa</string>
+    <string name="tokio">Tokio</string>
+    <string name="delhi">Nueva Delhi</string>
+    <string name="pekin">Pekín</string>
+    <string name="spain">España</string>
+    <string name="francia">Francia</string>
+    <string name="italia">Italia</string>
+    <string name="portugal">Portugal</string>
+    <string name="brasil">Brasil</string>
+    <string name="alemania">Alemania</string>
+    <string name="rusia">Rusia</string>
+    <string name="china">China</string>
+    <string name="japon">Japón</string>
+    <string name="india">India</string>
 
 </resources>

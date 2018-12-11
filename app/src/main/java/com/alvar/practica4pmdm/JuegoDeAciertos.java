@@ -29,7 +29,7 @@ public class JuegoDeAciertos extends AppCompatActivity {
     RadioButton radioButtonMadrid;
     RadioButton radioButtonParis;
     RadioButton radioButtonRoma;
-    RadioButton radioButtonOporto;
+    RadioButton radioButtonLisboa;
     RadioButton radioButtonBrasilia;
     RadioButton radioButtonBerlin;
     RadioButton radioButtonMoscu;
@@ -72,7 +72,7 @@ public class JuegoDeAciertos extends AppCompatActivity {
         radioButtonMadrid = findViewById(R.id.radioButtonMadrid);
         radioButtonParis = findViewById(R.id.radioButtonParis);
         radioButtonRoma = findViewById(R.id.radioButtonRoma);
-        radioButtonOporto = findViewById(R.id.radioButtonOporto);
+        radioButtonLisboa = findViewById(R.id.radioButtonOporto);
         radioButtonBerlin = findViewById(R.id.radioButtonBerlin);
         radioButtonMoscu = findViewById(R.id.radioButtonMoscu);
         radioButtonTokio = findViewById(R.id.radioButtonTokio);
@@ -110,7 +110,7 @@ public class JuegoDeAciertos extends AppCompatActivity {
                 if(radioButtonMadrid.isChecked())  textViewCapital.setText("Madrid");
                 if(radioButtonParis.isChecked()) textViewCapital.setText("Paris");
                 if(radioButtonRoma.isChecked()) textViewCapital.setText("Roma");
-                if(radioButtonOporto.isChecked()) textViewCapital.setText("Oporto");
+                if(radioButtonLisboa.isChecked()) textViewCapital.setText("Lisboa");
                 if(radioButtonBrasilia.isChecked()) textViewCapital.setText("Brasilia");
                 if(radioButtonBerlin.isChecked()) textViewCapital.setText("Berlin");
                 if(radioButtonMoscu.isChecked()) textViewCapital.setText("Moscú");
@@ -128,7 +128,7 @@ public class JuegoDeAciertos extends AppCompatActivity {
                 capital=textViewCapital.getText().toString();
 
                 if(pais.equals("España") && capital.equals("Madrid") || pais.equals("Francia") && capital.equals("París") ||
-                        pais.equals("Italia") && capital.equals("Roma") || pais.equals("Portugal") && capital.equals("Oporto") ||
+                        pais.equals("Italia") && capital.equals("Roma") || pais.equals("Portugal") && capital.equals("Lisboa") ||
                         pais.equals("Alemania") && capital.equals("Berlín") || pais.equals("Rusia") && capital.equals("Moscú") ||
                         pais.equals("Japón") && capital.equals("Tokio") || pais.equals("Brasil") && capital.equals("Brasilia") ||
                         pais.equals("China") && capital.equals("Pekín") ||

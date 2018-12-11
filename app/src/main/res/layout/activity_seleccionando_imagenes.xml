@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onClick"
-            android:text="tulipán" />
+            android:text="@string/btnTulipan" />
 
         <Button
             android:id="@+id/buttonRosa"
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onClick"
-            android:text="rosa" />
+            android:text="@string/btnRosa" />
     </LinearLayout>
 
     <LinearLayout
@@ -56,15 +56,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="azahar"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            android:text="@string/btnAzahar" />
 
         <Button
             android:id="@+id/buttonCerezo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="cerezo"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            android:text="@string/btnCerezo" />
     </LinearLayout>
 </LinearLayout>

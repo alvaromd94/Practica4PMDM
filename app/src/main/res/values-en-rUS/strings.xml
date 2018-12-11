@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Práctica 4</string>
+    <string name="numerosPrimos">Prime Numbers</string>
+    <string name="juegoDeAciertos">Hitting Game</string>
+    <string name="desplazandoImagenes">Scrolling Images</string>
+    <string name="seleccionandoImagenes">Selecting Images</string>
+    <string name="boton1">Button 1</string>
+    <string name="boton2">Button 2</string>
+    <string name="boton3">Button 3</string>
+    <string name="boton4">Button 4</string>
+    <string name="paises">COUNTRIES</string>
+    <string name="capitales">CAPITAL</string>
+    <string name="btnVerificar">Check</string>
+    <string name="txtIntroducir">Enter an integer:</string>
+    <string name="btnCalcular">Calculate</string>
+    <string name="btnTulipan">Tulip</string>
+    <string name="btnRosa">Rose</string>
+    <string name="btnAzahar">Azahar</string>
+    <string name="btnCerezo">Cherry tree</string>
+    <string name="paris">Paris</string>
+    <string name="madrid">Madrid</string>
+    <string name="roma">Rome</string>
+    <string name="moscu">Moscow</string>
+    <string name="berlin">Berlin</string>
+    <string name="brasilia">Brasilia</string>
+    <string name="oporto">Lisbon</string>
+    <string name="tokio">Tokyo</string>
+    <string name="delhi">New Delhi</string>
+    <string name="pekin">Beijing</string>
+    <string name="spain">Spain</string>
+    <string name="francia">France</string>
+    <string name="italia">Italy</string>
+    <string name="portugal">Portugal</string>
+    <string name="brasil">Brazil</string>
+    <string name="alemania">Germany</string>
+    <string name="rusia">Russia</string>
+    <string name="china">China</string>
+    <string name="japon">Japan</string>
+    <string name="india">India</string>
+    <string name="lisboa">Lisbon</string>
+</resources>

@@ -27,61 +27,61 @@
                     android:id="@+id/radioButtonSpain"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="España" />
+                    android:text="@string/spain" />
 
                 <RadioButton
                     android:id="@+id/radioButtonFrancia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Francia" />
+                    android:text="@string/francia" />
 
                 <RadioButton
                     android:id="@+id/radioButtonItalia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Italia" />
+                    android:text="@string/italia" />
 
                 <RadioButton
                     android:id="@+id/radioButtonPortugal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Portugal" />
+                    android:text="@string/portugal" />
 
                 <RadioButton
                     android:id="@+id/radioButtonBrasil"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Brasil" />
+                    android:text="@string/brasil" />
 
                 <RadioButton
                     android:id="@+id/radioButtonAlemania"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Alemania" />
+                    android:text="@string/alemania" />
 
                 <RadioButton
                     android:id="@+id/radioButtonRusia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Rusia" />
+                    android:text="@string/rusia" />
 
                 <RadioButton
                     android:id="@+id/radioButtonChina"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="China" />
+                    android:text="@string/china" />
 
                 <RadioButton
                     android:id="@+id/radioButtonJapon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Japón" />
+                    android:text="@string/japon" />
 
                 <RadioButton
                     android:id="@+id/radioButtonIndia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="India" />
+                    android:text="@string/india" />
             </RadioGroup>
         </LinearLayout>
     </ScrollView>
