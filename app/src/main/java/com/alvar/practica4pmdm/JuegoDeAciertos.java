@@ -72,7 +72,7 @@ public class JuegoDeAciertos extends AppCompatActivity {
         radioButtonMadrid = findViewById(R.id.radioButtonMadrid);
         radioButtonParis = findViewById(R.id.radioButtonParis);
         radioButtonRoma = findViewById(R.id.radioButtonRoma);
-        radioButtonLisboa = findViewById(R.id.radioButtonOporto);
+        radioButtonLisboa = findViewById(R.id.radioButtonLisboa);
         radioButtonBerlin = findViewById(R.id.radioButtonBerlin);
         radioButtonMoscu = findViewById(R.id.radioButtonMoscu);
         radioButtonTokio = findViewById(R.id.radioButtonTokio);
@@ -91,32 +91,32 @@ public class JuegoDeAciertos extends AppCompatActivity {
         radioGroupPaises.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                if(radioButtonSpain.isChecked())  textViewPais.setText("España");
-                if(radioButtonFrancia.isChecked()) textViewPais.setText("Francia");
-                if(radioButtonItalia.isChecked()) textViewPais.setText("Italia");
-                if(radioButtonPortugal.isChecked()) textViewPais.setText("Portugal");
-                if(radioButtonBrasil.isChecked()) textViewPais.setText("Brasil");
-                if(radioButtonAlemania.isChecked()) textViewPais.setText("Alemania");
-                if(radioButtonRusia.isChecked()) textViewPais.setText("Rusia");
-                if(radioButtonChina.isChecked()) textViewPais.setText("China");
-                if(radioButtonJapon.isChecked()) textViewPais.setText("Japón");
-                if(radioButtonIndia.isChecked()) textViewPais.setText("India");
+                if(radioButtonSpain.isChecked())  textViewPais.setText(getResources().getString(R.string.spain));
+                if(radioButtonFrancia.isChecked()) textViewPais.setText(getResources().getString(R.string.francia));
+                if(radioButtonItalia.isChecked()) textViewPais.setText(getResources().getString(R.string.italia));
+                if(radioButtonPortugal.isChecked()) textViewPais.setText(getResources().getString(R.string.portugal));
+                if(radioButtonBrasil.isChecked()) textViewPais.setText(getResources().getString(R.string.brasil));
+                if(radioButtonAlemania.isChecked()) textViewPais.setText(getResources().getString(R.string.alemania));
+                if(radioButtonRusia.isChecked()) textViewPais.setText(getResources().getString(R.string.rusia));
+                if(radioButtonChina.isChecked()) textViewPais.setText(getResources().getString(R.string.china));
+                if(radioButtonJapon.isChecked()) textViewPais.setText(getResources().getString(R.string.japon));
+                if(radioButtonIndia.isChecked()) textViewPais.setText(getResources().getString(R.string.india));
 
             }
         });
         radioGroupCapitales.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                if(radioButtonMadrid.isChecked())  textViewCapital.setText("Madrid");
-                if(radioButtonParis.isChecked()) textViewCapital.setText("Paris");
-                if(radioButtonRoma.isChecked()) textViewCapital.setText("Roma");
-                if(radioButtonLisboa.isChecked()) textViewCapital.setText("Lisboa");
-                if(radioButtonBrasilia.isChecked()) textViewCapital.setText("Brasilia");
-                if(radioButtonBerlin.isChecked()) textViewCapital.setText("Berlin");
-                if(radioButtonMoscu.isChecked()) textViewCapital.setText("Moscú");
-                if(radioButtonTokio.isChecked()) textViewCapital.setText("Tokio");
-                if(radioButtonPekin.isChecked()) textViewCapital.setText("Pekín");
-                if(radioButtonNuevaDelhi.isChecked()) textViewCapital.setText("Nueva Delhi");
+                if(radioButtonMadrid.isChecked())  textViewCapital.setText(getResources().getString(R.string.madrid));
+                if(radioButtonParis.isChecked()) textViewCapital.setText(getResources().getString(R.string.paris));
+                if(radioButtonRoma.isChecked()) textViewCapital.setText(getResources().getString(R.string.roma));
+                if(radioButtonLisboa.isChecked()) textViewCapital.setText(getResources().getString(R.string.lisboa));
+                if(radioButtonBrasilia.isChecked()) textViewCapital.setText(getResources().getString(R.string.brasilia));
+                if(radioButtonBerlin.isChecked()) textViewCapital.setText(getResources().getString(R.string.berlin));
+                if(radioButtonMoscu.isChecked()) textViewCapital.setText(getResources().getString(R.string.moscu));
+                if(radioButtonTokio.isChecked()) textViewCapital.setText(getResources().getString(R.string.tokio));
+                if(radioButtonPekin.isChecked()) textViewCapital.setText(getResources().getString(R.string.pekin));
+                if(radioButtonNuevaDelhi.isChecked()) textViewCapital.setText(getResources().getString(R.string.delhi));
 
             }
         });
@@ -127,12 +127,16 @@ public class JuegoDeAciertos extends AppCompatActivity {
                 pais=textViewPais.getText().toString();
                 capital=textViewCapital.getText().toString();
 
-                if(pais.equals("España") && capital.equals("Madrid") || pais.equals("Francia") && capital.equals("París") ||
-                        pais.equals("Italia") && capital.equals("Roma") || pais.equals("Portugal") && capital.equals("Lisboa") ||
-                        pais.equals("Alemania") && capital.equals("Berlín") || pais.equals("Rusia") && capital.equals("Moscú") ||
-                        pais.equals("Japón") && capital.equals("Tokio") || pais.equals("Brasil") && capital.equals("Brasilia") ||
-                        pais.equals("China") && capital.equals("Pekín") ||
-                        pais.equals("India") && capital.equals("Nueva Delhi"))
+                if(pais.equals(getResources().getString(R.string.spain)) && capital.equals(getResources().getString(R.string.madrid)) ||
+                        pais.equals(getResources().getString(R.string.francia)) && capital.equals(getResources().getString(R.string.paris)) ||
+                        pais.equals(getResources().getString(R.string.italia)) && capital.equals(getResources().getString(R.string.roma)) ||
+                        pais.equals(getResources().getString(R.string.portugal)) && capital.equals(getResources().getString(R.string.lisboa)) ||
+                        pais.equals(getResources().getString(R.string.alemania)) && capital.equals(getResources().getString(R.string.berlin)) ||
+                        pais.equals(getResources().getString(R.string.rusia)) && capital.equals(getResources().getString(R.string.moscu)) ||
+                        pais.equals(getResources().getString(R.string.japon)) && capital.equals(getResources().getString(R.string.tokio)) ||
+                        pais.equals(getResources().getString(R.string.brasil)) && capital.equals(getResources().getString(R.string.brasilia)) ||
+                        pais.equals(getResources().getString(R.string.china)) && capital.equals(getResources().getString(R.string.pekin)) ||
+                        pais.equals(getResources().getString(R.string.india)) && capital.equals(getResources().getString(R.string.delhi)))
                 {
                     imageViewAcierto.setVisibility(View.VISIBLE);
                     imageViewError.setVisibility(View.INVISIBLE);

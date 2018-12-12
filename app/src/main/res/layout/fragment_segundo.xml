@@ -59,7 +59,7 @@
                     android:text="@string/brasilia" />
 
                 <RadioButton
-                    android:id="@+id/radioButtonOporto"
+                    android:id="@+id/radioButtonLisboa"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/lisboa" />

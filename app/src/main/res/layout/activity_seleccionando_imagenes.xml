@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="15dp"
+    android:padding="20dp"
     tools:context=".SeleccionandoImagenes">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="400dp"
         android:orientation="horizontal">
 
         <FrameLayout
@@ -25,22 +25,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="horizontal"
         android:paddingTop="15dp">
 
         <Button
             android:id="@+id/buttonTulipan"
-            android:layout_width="wrap_content"
+            android:layout_width="175dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginRight="5dp"
             android:onClick="onClick"
             android:text="@string/btnTulipan" />
 
         <Button
             android:id="@+id/buttonRosa"
-            android:layout_width="wrap_content"
+            android:layout_width="175dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
             android:onClick="onClick"
             android:text="@string/btnRosa" />
     </LinearLayout>
@@ -48,22 +49,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="horizontal"
         android:paddingTop="15dp">
 
         <Button
             android:id="@+id/buttonAzahar"
-            android:layout_width="wrap_content"
+            android:layout_width="175dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginRight="5dp"
             android:onClick="onClick"
             android:text="@string/btnAzahar" />
 
         <Button
             android:id="@+id/buttonCerezo"
-            android:layout_width="wrap_content"
+            android:layout_width="175dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
             android:onClick="onClick"
             android:text="@string/btnCerezo" />
     </LinearLayout>
