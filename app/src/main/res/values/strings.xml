@@ -37,6 +37,8 @@
     <string name="china">China</string>
     <string name="japon">Japón</string>
     <string name="india">India</string>
+    <string name="primo">Este número es primo</string>
+    <string name="noPrimo">Este número no es primo</string>
 
 
 </resources>

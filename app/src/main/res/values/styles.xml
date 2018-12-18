@@ -8,4 +8,28 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="BtnMatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BtnActivity1">
+        <item name="android:drawableRight">@android:drawable/btn_star_big_on</item>
+    </style>
+
+    <style name="BtnActivity2">
+        <item name="android:drawableRight">@android:drawable/ic_lock_idle_alarm</item>
+    </style>
+
+    <style name="BtnActivity3">
+        <item name="android:drawableRight">@android:drawable/ic_lock_lock</item>
+    </style>
+
+    <style name="BtnActivity4">
+        <item name="android:drawableRight">@android:drawable/presence_audio_online</item>
+    </style>
+
+    <style name="btnAltoContent">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>

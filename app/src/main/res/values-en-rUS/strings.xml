@@ -38,4 +38,6 @@
     <string name="japon">Japan</string>
     <string name="india">India</string>
     <string name="lisboa">Lisbon</string>
+    <string name="primo">This number is prime</string>
+    <string name="noPrimo">This number is not prime</string>
 </resources>

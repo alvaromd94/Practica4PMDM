@@ -38,4 +38,6 @@
     <string name="japon">Le Japon</string>
     <string name="india">Inde</string>
     <string name="lisboa">Lisbonne</string>
+    <string name="primo">Ce nombre est premier</string>
+    <string name="noPrimo">Ce nombre n\'est pas premier</string>
 </resources>

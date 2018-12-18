@@ -66,8 +66,7 @@
 
     <Button
         android:id="@+id/buttonVerificar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/BtnMatchWrap"
         android:layout_marginBottom="10dp"
         android:text="@string/btnVerificar" />
 

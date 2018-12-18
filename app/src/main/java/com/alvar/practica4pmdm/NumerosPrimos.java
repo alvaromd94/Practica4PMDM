@@ -42,11 +42,11 @@ public class NumerosPrimos extends AppCompatActivity {
                 }
                 if(contador <= 2)
                 {
-                    textViewResultado.setText("Este número es primo");
+                    textViewResultado.setText(getResources().getString(R.string.primo));
                 }
                 else
                 {
-                    textViewResultado.setText("Este número no es primo");
+                    textViewResultado.setText(getResources().getString(R.string.noPrimo));
                 }
             }
         });

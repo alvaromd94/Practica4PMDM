@@ -32,7 +32,7 @@
         <Button
             android:id="@+id/buttonTulipan"
             android:layout_width="175dp"
-            android:layout_height="wrap_content"
+           style="@style/btnAltoContent"
             android:layout_marginRight="5dp"
             android:onClick="onClick"
             android:text="@string/btnTulipan" />
@@ -40,7 +40,7 @@
         <Button
             android:id="@+id/buttonRosa"
             android:layout_width="175dp"
-            android:layout_height="wrap_content"
+            style="@style/btnAltoContent"
             android:layout_marginLeft="5dp"
             android:onClick="onClick"
             android:text="@string/btnRosa" />
@@ -56,7 +56,7 @@
         <Button
             android:id="@+id/buttonAzahar"
             android:layout_width="175dp"
-            android:layout_height="wrap_content"
+            style="@style/btnAltoContent"
             android:layout_marginRight="5dp"
             android:onClick="onClick"
             android:text="@string/btnAzahar" />
@@ -64,7 +64,7 @@
         <Button
             android:id="@+id/buttonCerezo"
             android:layout_width="175dp"
-            android:layout_height="wrap_content"
+            style="@style/btnAltoContent"
             android:layout_marginLeft="5dp"
             android:onClick="onClick"
             android:text="@string/btnCerezo" />
