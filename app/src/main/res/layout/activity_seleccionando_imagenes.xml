@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="350dp"
         android:orientation="horizontal">
 
         <FrameLayout
@@ -26,21 +26,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="horizontal"
-        android:paddingTop="15dp">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/buttonTulipan"
+            style="@style/btnAltoContent"
             android:layout_width="175dp"
-           style="@style/btnAltoContent"
             android:layout_marginRight="5dp"
             android:onClick="onClick"
             android:text="@string/btnTulipan" />
 
         <Button
             android:id="@+id/buttonRosa"
-            android:layout_width="175dp"
             style="@style/btnAltoContent"
+            android:layout_width="175dp"
             android:layout_marginLeft="5dp"
             android:onClick="onClick"
             android:text="@string/btnRosa" />
@@ -50,21 +49,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="horizontal"
-        android:paddingTop="15dp">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/buttonAzahar"
-            android:layout_width="175dp"
             style="@style/btnAltoContent"
+            android:layout_width="175dp"
             android:layout_marginRight="5dp"
             android:onClick="onClick"
             android:text="@string/btnAzahar" />
 
         <Button
             android:id="@+id/buttonCerezo"
-            android:layout_width="175dp"
             style="@style/btnAltoContent"
+            android:layout_width="175dp"
             android:layout_marginLeft="5dp"
             android:onClick="onClick"
             android:text="@string/btnCerezo" />

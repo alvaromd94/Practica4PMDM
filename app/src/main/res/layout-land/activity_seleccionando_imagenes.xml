@@ -17,33 +17,33 @@
 
         <Button
             android:id="@+id/buttonTulipan"
-            android:layout_width="175dp"
             style="@style/btnAltoContent"
-            android:layout_margin="10dp"
+            android:layout_width="175dp"
+            android:layout_margin="0dp"
             android:onClick="onClick"
             android:text="@string/btnTulipan" />
 
         <Button
             android:id="@+id/buttonRosa"
-            android:layout_width="175dp"
             style="@style/btnAltoContent"
-            android:layout_margin="10dp"
+            android:layout_width="175dp"
+            android:layout_margin="0dp"
             android:onClick="onClick"
             android:text="@string/btnRosa" />
 
         <Button
             android:id="@+id/buttonAzahar"
-            android:layout_width="175dp"
             style="@style/btnAltoContent"
-            android:layout_margin="10dp"
+            android:layout_width="175dp"
+            android:layout_margin="0dp"
             android:onClick="onClick"
             android:text="@string/btnAzahar" />
 
         <Button
             android:id="@+id/buttonCerezo"
-            android:layout_width="175dp"
             style="@style/btnAltoContent"
-            android:layout_margin="10dp"
+            android:layout_width="175dp"
+            android:layout_margin="0dp"
             android:onClick="onClick"
             android:text="@string/btnCerezo" />
     </LinearLayout>
